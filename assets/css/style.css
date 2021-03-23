@@ -151,7 +151,7 @@ img {
         -webkit-box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.15);
         box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.15);
         border-bottom: none;
-        z-index: 10000 !important;
+        z-index: 1000 !important;
 }
 
 /* Banner section */
@@ -647,4 +647,101 @@ form input.inp{
     padding: 10px;
     border-radius: 50%;
     background: #ed695a;
+}
+
+/* Courses Area */
+.course-header h2{
+    line-height: 1.25;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.course-card{
+    border: 1px solid #e5e8ed;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    box-shadow: 0 1.75rem 1.875rem rgb(154 156 165 / 8%), 0 1.25rem 1rem rgb(154 156 165 / 5%), 0 0.5rem 0.625rem rgb(154 156 165 / 4%), 0 0.25rem 0.25rem rgb(30 33 44 / 3%) !important
+}
+
+.course-card:hover{
+    box-shadow: 0 1.75rem 1.875rem rgb(154 156 165 / 16%), 0 1.25rem 1rem -0.25rem rgb(154 156 165 / 10%), 0 0.5rem 0.625rem rgb(154 156 165 / 8%), 0 0.25rem 0.25rem rgb(30 33 44 / 5%) !important;
+}
+
+.course-card-img{
+    width: 40%;
+}
+
+.c-img-1{
+    background: url(../img/courses/our-cources_01.jpg);
+    background-size: cover;
+}
+
+.c-img-2{
+    background: url(../img/courses/our-cources_02.jpg);
+    background-size: cover;
+}
+
+.c-img-3{
+    background: url(../img/courses/our-cources_04.jpg);
+    background-size: cover;
+}
+
+.c-img-4{
+    background: url(../img/courses/our-cources_05.jpg);
+    background-size: cover;
+}
+
+.course-card-content{
+    padding: 1.9875rem;
+    width: 60%;
+}
+
+.course-card-content p{
+    margin-bottom: 10px;
+}
+
+.badge{
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    display: inline-block;
+    padding: .25rem .5rem;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: .25rem;
+}
+
+.badge-1{
+    background: #03cea4;
+}
+
+.badge-2{
+    background: #5a87fc;
+}
+
+.badge-3{
+    background: #f89828
+}
+
+.badge-4{
+    background: #F52F6E;
+}
+
+/* Modal Courses */
+.modal-course{
+    z-index: 99999;
+}
+
+.modal-dialog-course{
+    max-width: 500px;
+}
+
+.modal-course .modal-body{
+    padding: 20px;
+}
+
+.modal-course .modal-title{
+    font-size: 25px;
 }
