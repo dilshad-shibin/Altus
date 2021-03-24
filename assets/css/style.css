@@ -260,7 +260,7 @@ form input.inp{
 /* About section */
 .about-area{
     position: relative;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .about-box{
@@ -315,6 +315,7 @@ form input.inp{
     width: 75%;
     background: url(../../assets/img/specialities/spec.jpg);
     background-size: cover;
+    display: none;/* new update - left image remove */
 }
 
 .spec-content{
@@ -332,7 +333,7 @@ form input.inp{
     font-weight: 700;
     text-transform: uppercase;
     position: relative;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
 .spec-content-inner h1:after{
@@ -653,6 +654,10 @@ form input.inp{
 }
 
 /* Courses Area */
+.course-section{
+    margin-top: 100px;
+}
+
 .course-header h2{
     line-height: 1.25;
     font-weight: 700;
