@@ -7,7 +7,10 @@
         padding: 10px;
     }
     .hero-text h2{
-        font-size: 40px;
+        font-size: 20px;
+    }
+    .hero-text h2 span{
+        font-size: 35px;
     }
     .sub-papers span{
         font-size: 12px;
@@ -130,5 +133,15 @@
 @media(min-width:576px) and (max-width:767px){
     .modal-dialog{
         max-width: 500px;
+    }
+}
+
+@media(min-width: 768px){
+    .res-768{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        flex: 100%;
     }
 }
