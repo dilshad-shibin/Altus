@@ -368,6 +368,7 @@ form input.inp{
     border-radius: 5px;
     text-align: center;
     margin-bottom: 15px;
+    height: 180px;
 }
 
 .spec-box-inner h5{
